@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title>HANGMAN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        window.onload = function () {
+            document.getElementById("btn").style.display = 'none';
+
+        }
+    </script>
+</head>
+
+<body>
+    <br>
+    <center> <img src="hang/head2.png"></center>
+    <br><br><br>
+    <table align="left" border="0" width="700">
+        <tr>
+            <td width="150"></td>
+            <td>
+                <font color="red">
+                    <p id="hint"></p>
+                </font>
+            </td>
+        </tr>
+    </table>
+    <table align="right" border="0" width="450">
+        <tr>
+            <td>
+                <font color="red">
+                    <p id="live">He has 10 lives left</p>
+                </font>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="0">
+        <tr>
+            <td width="900" align="center">
+                <div class="rcorners7">
+                    <center><br><br><br>
+                        <p id="span"></p>
+                </div><br><br>
+                <br>
+
+                <table align="center">
+                    <tr>
+                        <td align="center">
+                            <p id="ans"></p>
+                            <p id="win">
+                                <input type="button" class="button button5" value="A" id="a" onclick="check('a')">
+                                <input type="button" class="button button5" value="B" id="b" onclick="check('b')">
+                                <input type="button" class="button button5" value="C" id="c" onclick="check('c')">
+                                <input type="button" class="button button5" value="D" id="d" onclick="check('d')">
+                                <input type="button" class="button button5" value="E" id="e" onclick="check('e')">
+                                <input type="button" class="button button5" value="F" id="f" onclick="check('f')">
+                                <input type="button" class="button button5" value="G" id="g" onclick="check('g')">
+                                <input type="button" class="button button5" value="H" id="h" onclick="check('h')">
+                                <input type="button" class="button button5" value="I" id="i" onclick="check('i')">
+                                <input type="button" class="button button5" value="J" id="j" onclick="check('j')">
+                                <input type="button" class="button button5" value="K" id="k" onclick="check('k')">
+                                <input type="button" class="button button5" value="L" id="l" onclick="check('l')">
+                                <input type="button" class="button button5" value="M" id="m" onclick="check('m')"><BR>
+                                <input type="button" class="button button5" value="N" id="n" onclick="check('n')">
+                                <input type="button" class="button button5" value="O" id="o" onclick="check('o')">
+                                <input type="button" class="button button5" value="P" id="p" onclick="check('p')">
+                                <input type="button" class="button button5" value="Q" id="q" onclick="check('q')">
+                                <input type="button" class="button button5" value="R" id="r" onclick="check('r')">
+                                <input type="button" class="button button5" value="S" id="s" onclick="check('s')">
+                                <input type="button" class="button button5" value="T" id="t" onclick="check('t')">
+                                <input type="button" class="button button5" value="U" id="u" onclick="check('u')">
+                                <input type="button" class="button button5" value="V" id="v" onclick="check('v')">
+                                <input type="button" class="button button5" value="W" id="w" onclick="check('w')">
+                                <input type="button" class="button button5" value="X" id="x" onclick="check('x')">
+                                <input type="button" class="button button5" value="Y" id="y" onclick="check('y')">
+                                <input type="button" class="button button5" value="Z" id="z" onclick="check('z')">
+                            </p>
+                            <br>
+                            <p id="demo"></p>
+                            <input type="submit" id="btn" class="button button4" value="play again" onclick="go()">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="500"><img id="myImage" src="hang2/h0.png" style="width:500px"></td>
+        </tr>
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

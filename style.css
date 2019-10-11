@@ -1,0 +1,54 @@
+.rcorners7 {
+    border-radius: 15px;
+    background: #803232;
+    padding: 20px;
+    width: 600px;
+    height: 180px;
+}
+
+.button {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button5 {
+    background-color: white;
+    color: #000000;
+    border: 2px solid #e02957;
+}
+
+.button5:hover {
+    background-color: #d35373;
+    color: white;
+}
+
+.button4 {
+    background-color: rgb(133, 6, 6);
+    color: #ffffff;
+    border: 2px solid #e02957;
+}
+
+.button4:hover {
+    background-color: #ce6a83;
+    color: rgb(48, 43, 43);
+}
+
+html {
+    background-image: url('pic/28.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+}
